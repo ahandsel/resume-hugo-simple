@@ -7,10 +7,10 @@
 <meta name="description" content="{{ .Site.Params.description }}" />
 <meta name="author" content="{{ .Site.Params.author }}" />
 
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="shortcut icon" href="/assets/images/{{ .Site.Params.profile.favicon }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/{{ .Site.Params.profile.appleTouchIcon }}">
+<link rel="icon" href="/assets/images/{{ .Site.Params.profile.favicon32 }}">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/{{ .Site.Params.profile.favicon16 }}">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
@@ -30,10 +30,10 @@
 <meta name="twitter:url" content="{{ .Site.BaseURL }}" />
 <meta property="og:url" content="{{ .Site.BaseURL }}" />
 
-<meta itemProp="image" content="/{{ .Site.Params.og_image }}" />
-<meta property="og:image" content="/{{ .Site.Params.og_image }}" />
-<meta name="twitter:image" content="/{{ .Site.Params.og_image }}" />
-<meta name="twitter:image:src" content="/{{ .Site.Params.og_image }}" />
+<meta itemProp="image" content="/{{ .Site.Params.ogImage }}" />
+<meta property="og:image" content="/{{ .Site.Params.ogImage }}" />
+<meta name="twitter:image" content="/{{ .Site.Params.ogImage }}" />
+<meta name="twitter:image:src" content="/{{ .Site.Params.ogImage }}" />
 <meta name="twitter:site" content="{{ .Site.Params.twitterName }}" />
 
 <meta name="twitter:card" content="summary_large_image" />
