@@ -87,12 +87,18 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Intern"
-        dates = "2000 - Present"
-        company = "Compuglobal Hyper Mega Net"
-        details = "Increased the baudrate for comic book guy"
+        title = "Global Developer Relations Team"
+        dates = "Apr 2019 - Present"
+        company = "Cybozu, Inc."
+        details = "..."
         [[params.experience.list.items]]
-        details = "Took buttery notes"
+        details = "Sponsor and support hackathon events"
+        [[params.experience.list.items]]
+        details = "Mange the English style guide"
+        [[params.experience.list.items]]
+        details = "Host technical workshops"
+        [[params.experience.list.items]]
+        details = "Japanese to English translations for technical documentations (API Docs, JavaScript tutorials, & DevRel promotional materials)"
 
 
 
