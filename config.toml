@@ -15,8 +15,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Genji Fujimori"
-        avatar = "bas-steins-2.jpg"
         tagline = "Developer Advocate & UX Writer"
+        avatar = "avatar.png"
+        favicon = "avatar.png"
+        appleTouchIcon = "avatar.png"
+        favicon32 = "avatar.png"
+        favicon16 = "avatar.png"
 
     [params.contact]
         enable = true
