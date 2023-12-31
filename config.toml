@@ -2,13 +2,13 @@
 
 baseURL = "https://resume-demo.bas.work/"
 languageCode = "en"
-title = "John Doe"
+title = "Genji Fujimori"
 enableGitInfo = false
 googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
-    author = "John Doe"
     description = "Demo Resume"
+    author = "Genji Fujimori"
     og_image = "better-software.png"
     twitterName = "@bascodes"
     ghRepo = "https://github.com/codewithbas/resume/"
@@ -16,7 +16,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "John Doe"
+        name = "Genji Fujimori"
         tagline = "Demo Resume"
         avatar = "bas-steins-2.jpg"
 
