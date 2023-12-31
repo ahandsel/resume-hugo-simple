@@ -55,19 +55,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "Master of Desaster"
-        university = "University of Life"
-        dates = "1990-present"
-
-
-    [params.awards]
-        enable = true
-
-        [[params.awards.list]]
-        name = "Professional Scrum Master™ I"
-        body = "scrum.org"
-        date = "2018"
-
+        degree = "Bachelor’s Degree, Management Information Systems"
+        university = "University of California, Santa Cruz"
+        dates = "2014 - 2018"
 
     [params.languages]
         enable = true
