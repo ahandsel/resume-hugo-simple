@@ -63,11 +63,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.languages.list]]
-        name = "Klingon"
-        level = "Fluent"
+        name = "English"
+        level = "Native"
 
         [[params.languages.list]]
-        name = "English"
+        name = "Japanese"
         level = "Fluent"
 
 
