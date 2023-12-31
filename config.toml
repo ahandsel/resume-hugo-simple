@@ -40,11 +40,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Python"
+        title = "JavaScript"
         [[params.skills.list]]
-        title = "Lua"
+        title = "Technical Writing"
         [[params.skills.list]]
-        title = "LISP"
+        title = "API Documentation Management"
+        [[params.skills.list]]
+        title = "Japanese to English Translation"
+        [[params.skills.list]]
+        title = "UX Copy Writing"
 
 
     [params.education]
