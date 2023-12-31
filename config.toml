@@ -125,13 +125,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "https://github.com/codewithbas"
-        title = "/codewithbas"
+        url = "https://github.com/ahandsel"
+        title = "/ahandsel"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "https://linkedin.com/in/bascodes"
-        title = "/in/bascodes"
+        url = "https://linkedin.com/in/genji-f/"
+        title = "/in/genji-f"
         [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "https://twitter.com/bascodes"
-        title = "@bascodes"
+        icon = "fab fa-dev"
+        url = "https://dev.to/ahandsel/"
+        title = "@ahandsel"
