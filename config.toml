@@ -25,20 +25,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.contact]
         enable = true
 
-        location = "Somewhere in the world"
-
-        [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:"
-        text = "confidential"
+        location = "Tokyo, Japan 🗼"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:mail@example.org"
-        text = "mail@example.org"
+        url = "mailto:g.fuji.forest@gmail.com"
+        text = "g.fuji.forest@gmail.com"
         [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://bas.bio"
-        text = "My links on the web"
+        icon = "fab fa-github"
+        url = "https://github.com/ahandsel"
+        text = "github.com/ahandsel"
 
 
     [params.skills]
