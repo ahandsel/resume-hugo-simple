@@ -8,11 +8,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Genji Fujimori"
-    og_image = "better-software.png"
-    twitterName = "@bascodes"
-    ghRepo = "https://github.com/codewithbas/resume/"
-    hugoRepo = "https://github.com/gohugoio/hugo/"
     description = "Developer Advocate and UX Writer"
+    ogImage = "better-software.png"
+    ghRepo = "https://github.com/ahandsel/resume-hugo-simple"
 
     [params.profile]
         enable = true
