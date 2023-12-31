@@ -102,7 +102,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.projects.list]]
         title = "This Resume"
         meta = "GitHub project"
-        url = "https://github.com/codewithbas/resume"
+        url = "https://github.com/ahandsel/resume-hugo-simple"
         tagline = "A resume with a free PDF generator"
 
 
