@@ -7,18 +7,18 @@ enableGitInfo = false
 googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
-    description = "Demo Resume"
     author = "Genji Fujimori"
     og_image = "better-software.png"
     twitterName = "@bascodes"
     ghRepo = "https://github.com/codewithbas/resume/"
     hugoRepo = "https://github.com/gohugoio/hugo/"
+    description = "Developer Advocate and UX Writer"
 
     [params.profile]
         enable = true
         name = "Genji Fujimori"
-        tagline = "Demo Resume"
         avatar = "bas-steins-2.jpg"
+        tagline = "Developer Advocate & UX Writer"
 
     [params.contact]
         enable = true
