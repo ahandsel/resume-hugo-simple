@@ -53,6 +53,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.education]
         enable = true
+        displayMain = true
+        displaySidebar = false
 
         [[params.education.list]]
         degree = "Bachelor’s Degree, Management Information Systems"
