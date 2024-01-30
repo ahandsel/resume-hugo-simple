@@ -138,3 +138,6 @@ Temporary Items
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
+
+# Temporary Files
+temp.*
