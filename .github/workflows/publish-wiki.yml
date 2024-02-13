@@ -2,9 +2,7 @@ name: Publish wiki
 on:
   push:
     branches: [main]
-    paths:
-      - docs/**
-      - .github/workflows/publish-wiki.yml
+    paths: docs/**
   workflow_dispatch:
     inputs:
       logLevel:
@@ -24,10 +22,10 @@ permissions:
 
 jobs:
   publish-wiki:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: Andrew-Chen-Wang/github-wiki-action@v4
-        with:
-          path: docs/
-          ignore: README.md
+      - uses: actions/checkout@v4
+      - uses: actions4gh/configure-wiki@v1
+      - uses: actions4gh/deploy-wiki@v1
