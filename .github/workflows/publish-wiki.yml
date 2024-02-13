@@ -5,6 +5,15 @@ on:
     paths:
       - wiki/**
       - .github/workflows/publish-wiki.yml
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      environment:
+        description: 'Environment name'
+        required: false
 concurrency:
   group: publish-wiki
   cancel-in-progress: true
