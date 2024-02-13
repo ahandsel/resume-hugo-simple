@@ -3,16 +3,6 @@
 Link: [bas.codes/posts/github-actions-resume](https://bas.codes/posts/github-actions-resume)
 
 ## Table of Content <!-- omit in toc -->
-* [What We'll Use](#what-well-use)
-* [Let's Go](#lets-go)
-  * [Get An Account on PDF.co](#get-an-account-on-pdfco)
-  * [Get An Account on Netlify](#get-an-account-on-netlify)
-  * [Fork the GitHub Repository](#fork-the-github-repository)
-  * [Configure the Repository](#configure-the-repository)
-  * [Configure Your Resume](#configure-your-resume)
-* [GitHub Actions](#github-actions)
-* [The Result](#the-result)
-* [What's next?](#whats-next)
 
 ---
 
