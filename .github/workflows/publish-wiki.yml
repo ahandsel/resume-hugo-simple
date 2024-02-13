@@ -3,14 +3,14 @@ on:
   push:
     branches: [main]
     paths:
-      - wiki/**
+      - doc/**
       - .github/workflows/publish-wiki.yml
   workflow_dispatch:
     inputs:
       logLevel:
-        description: 'Log level'
+        description: 'Title'
         required: true
-        default: 'warning'
+        default: 'Manual Update Wiki'
       environment:
         description: 'Environment name'
         required: false
