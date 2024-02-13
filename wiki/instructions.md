@@ -16,7 +16,6 @@ Link: [bas.codes/posts/github-actions-resume](https://bas.codes/posts/github-act
 
 ---
 
-![Article Header](img/1200-og.jpg)
 
 Want a resume that stands out but doesn't cause too much trouble to edit? I have you covered.
 
@@ -44,7 +43,6 @@ Sign up for an account on [PDF.co](https://pdf.co/) and head to the [Dashboard](
 
 On the dashboard, select "View Your API key" and save it somewhere. It should look like this:
 
-![pdf co db](./img/pdf-co-db.png)
 
 ### Get An Account on Netlify
 
@@ -54,18 +52,14 @@ Usually, you would use Netlify to run the build jobs for you. In our case, we wi
 
 To start a manually deployed site, just click on "Deploy manually" in the "Add new site" dropdown.
 
-![nf dep man](./img/nf-dep-man.png)
 
 You need to upload a starter, so any folder with an empty `index.html` file is good to go.
 
 In the config section for your new site, click on "Site settings" and copy your "Site ID":
 
-![nf site id](./img/nf-site-id.png)
 
 Next, head over to your [user's settings](https://app.netlify.com/user/applications) and create a personal access token:
 
-* ![nf token 1](./img/nf-token-1.png)
-* ![nf token 2](./img/nf-token-2.png)
 
 ### Fork the GitHub Repository
 
@@ -75,7 +69,6 @@ Had over to the [GitHub repository](https://github.com/codewithbas/resume) and c
 
 Next, head over to the Repository settings page.
 
-![gh repo settings](./img/gh-repo-settings.png)
 
 Create a new repository secret called `NETLIFY_TOKEN` and put your Netlify personal access token in here.
 
@@ -87,7 +80,6 @@ In the "Variables" tab, create two repository variables:
 
 In your GitHub's repository settings, head over to "Actions" > "General" and make sure that "Read and write permissions" are set in the "Workflow Permissions" section.
 
-![gh wf perm](./img/gh-wf-perm.png)
 
 ### Configure Your Resume
 
@@ -228,13 +220,11 @@ The last steps of our job upload the fresh PDF files to Netlify, and pushes the 
 
 This is why the latest commit on the repo is always done by the Actions user
 
-![gh actions user](./img/gh-actions-user.png)
 
 This should give you a quick overview about GitHub actions. Even though we just hadle a simple resume here, it gives a glimpse on how modern software development is done in the cloud.
 
 ## The Result
 
-![resume result](./img/example.png)
 
 I have created my own resume with this repo here: [resume.bas.work](https://resume.bas.work/).
 
