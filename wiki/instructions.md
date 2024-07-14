@@ -2,7 +2,19 @@
 
 Link: [bas.codes/posts/github-actions-resume](https://bas.codes/posts/github-actions-resume)
 
+
 ## Table of Content <!-- omit in toc -->
+
+* [What We'll Use](#what-well-use)
+* [Let's Go](#lets-go)
+  * [Get An Account on PDF.co](#get-an-account-on-pdfco)
+  * [Get An Account on Netlify](#get-an-account-on-netlify)
+  * [Fork the GitHub Repository](#fork-the-github-repository)
+  * [Configure the Repository](#configure-the-repository)
+  * [Configure Your Resume](#configure-your-resume)
+* [GitHub Actions](#github-actions)
+* [The Result](#the-result)
+* [What's next?](#whats-next)
 
 ---
 
@@ -11,7 +23,8 @@ Want a resume that stands out but doesn't cause too much trouble to edit? I have
 
 In this tutorial, you'll not only create a professional looking resume, but also learn about the basics of GitHub actions and Netlify.
 
-By the end of the article, you'll have a great looking resume with automated PDF versions in both Letter, and A4 format. And you can update it with a single text file and one commit to your GitHub repository.
+By the end of the article, you'll have a great looking resume with automated PDF versions in both Letter and A4 format. And you can update it with a single text file and one commit to your GitHub repository.
+
 
 ## What We'll Use
 
@@ -23,6 +36,7 @@ For this tutorial, we will use
 * [GitHub Actions](https://github.com/features/actions) to do all the automation
 
 The Resume itself is based on the phantastic [DevCard](https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-5-vcard-portfolio-template-for-software-developers/) theme by Xiaoying Riley.
+
 
 ## Let's Go
 
@@ -55,6 +69,7 @@ Next, head over to your [user's settings](https://app.netlify.com/user/applicati
 
 Had over to the [GitHub repository](https://github.com/codewithbas/resume) and click the fork button. That should only take a few seconds.
 
+
 ### Configure the Repository
 
 Next, head over to the Repository settings page.
@@ -76,6 +91,7 @@ In your GitHub's repository settings, head over to "Actions" > "General" and mak
 Next, check out your forked repository and open it with your favourite IDE. The only file you need to edit is `confg.toml` which includes all the sections of your resume.
 
 Once you commit and push your changes, the magic will start: GitHub Actions will wind a machine up to build your resume using hugo, upload it to netlify, have pdf.co create the PDF versions, then upload the PDFs to Netlify as well, and finally commit the final PDFs to your repos. Let's see how that works in detail.
+
 
 ## GitHub Actions
 
@@ -213,21 +229,15 @@ This is why the latest commit on the repo is always done by the Actions user
 
 This should give you a quick overview about GitHub actions. Even though we just hadle a simple resume here, it gives a glimpse on how modern software development is done in the cloud.
 
+
 ## The Result
 
 
 I have created my own resume with this repo here: [resume.bas.work](https://resume.bas.work/).
 
+
 ## What's next?
 
 [Follow @bascodes](https://twitter.com/bascodes?ref_src=twsrc%5Etfw)\
-To receive more articles like that, signup for my newsletter.\
+To receive more articles like that, sign-up for my newsletter.\
 I promise I won't spam you and send updates only occasionally. Because I hate full inboxes as much as you do!
-
-Published Feb 11, 2023
-
-* [Python](https://bas.codes/tag/python/)
-* [CodingInterview](https://bas.codes/tag/coding-interview/)
-* [GitHub](https://bas.codes/tag/git-hub/)
-
-I'm a software developer and tech trainer.[Bas Steins on Twitter](https://www.twitter.com/@bascodes)
