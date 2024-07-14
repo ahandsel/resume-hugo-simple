@@ -24,7 +24,7 @@ Here is what you need:
 
 
 ## Credits
-
+- [Build An Online Resume with an Auto-Updating PDF Version Using GitHub Actions - Bas codes](https://bas.codes/posts/github-actions-resume)
 - [Xiaoying Riley](https://themes.3rdwavemedia.com/bootstrap-templates/resume/devcard-bootstrap-5-vcard-portfolio-template-for-software-developers/) for DevCard theme
 - [Coybowsmall](https://github.com/cowboysmall-tools/hugo-devresume-theme) for adapting DevCard to Hugo
 - [Hugo](https://github.com/gohugoio/hugo) for static site generation
