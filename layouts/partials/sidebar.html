@@ -1,9 +1,9 @@
 <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
   {{ if and (.Site.Params.education.enable) (.Site.Params.education.displaySidebar) }} {{ partial "education.html" . }} {{ end }}
-  {{ if .Site.Params.awards.enable }} {{ partial "awards.html" . }} {{ end }}
-  {{ if .Site.Params.skills.enable }} {{ partial "skills.html" . }} {{ end }} {{
-  if .Site.Params.languages.enable }} {{ partial "languages.html" . }} {{ end }}
-  {{ if .Site.Params.interests.enable }} {{ partial "interests.html" . }} {{ end
+  {{ if and (.Site.Params.awards.enable) (.Site.Params.awards.displaySidebar) }} {{ partial "awards.html" . }} {{ end }}
+  {{ if and (.Site.Params.skills.enable) (.Site.Params.skills.displaySidebar) }} {{ partial "skills.html" . }} {{ end }}
+  {{ if and (.Site.Params.languages.enable) (.Site.Params.languages.displaySidebar) }} {{ partial "languages.html" . }} {{ end }}
+  {{ if and (.Site.Params.interests.enable) (.Site.Params.interests.displaySidebar) }} {{ partial "interests.html" . }} {{ end
   }}
 </aside>
 <!--//resume-aside-->

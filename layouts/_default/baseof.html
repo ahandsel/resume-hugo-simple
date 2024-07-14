@@ -5,27 +5,33 @@
   <body>
     <div class="main-wrapper">
       <div class="container px-3 px-lg-5">
-        <article
-          class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg"
-        >
+        <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg" >
           {{ partial "header.html" . }}
 
           <hr />
 
-          {{ if .Site.Params.summary.enable }} {{ partial "summary.html" . }} {{
-          end }}
+          {{ if and (.Site.Params.summary.enable) (.Site.Params.summary.displayMain) }}
+            {{ partial "summary.html" . }} {{ end }}
 
           <hr />
 
           <div class="resume-body">
             <div class="row">
               <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
-                {{ if .Site.Params.experience.enable }} {{ partial "experience.html" . }} {{ end }}
-                {{ if and (.Site.Params.education.enable) (.Site.Params.education.displayMain) }} {{ partial "education.html" . }} {{ end }}
-                {{ if .Site.Params.courses.enable }} {{ partial "courses.html" . }} {{ end }}
-                {{ if .Site.Params.projects.enable }} {{ partial "projects.html" . }} {{ end }}
-                {{ if .Site.Params.talks.enable }} {{ partial "talks.html" . }} {{ end }}
-                {{ if .Site.Params.information.enable }} {{ partial "information.html" . }} {{ end }}
+                {{ if and (.Site.Params.experience.enable) (.Site.Params.experience.displayMain) }}
+                  {{ partial "experience.html" . }} {{ end }}
+                {{ if and (.Site.Params.education.enable) (.Site.Params.education.displayMain) }}
+                  {{ partial "education.html" . }} {{ end }}
+                {{ if and (.Site.Params.courses.enable) (.Site.Params.courses.displayMain) }}
+                  {{ partial "courses.html" . }} {{ end }}
+                  {{ if and (.Site.Params.projects.enable) (.Site.Params.projects.displayMain) }}
+                  {{ partial "projects.html" . }} {{ end }}
+                {{ if and (.Site.Params.talks.enable) (.Site.Params.talks.displayMain) }}
+                  {{ partial "talks.html" . }} {{ end }}
+                {{ if and (.Site.Params.information.enable) (.Site.Params.information.displayMain) }}
+                  {{ partial "information.html" . }} {{ end }}
+                {{ if and (.Site.Params.skills.enable) (.Site.Params.skills.displayMain) }}
+                  {{ partial "skills.html" . }} {{ end }}
               </div>
               <!--//resume-main-->
 
@@ -37,8 +43,8 @@
 
           <hr />
 
-          {{ if .Site.Params.social.enable }} {{ partial "social.html" . }} {{
-          end }}
+          {{ if and (.Site.Params.social.enable) (.Site.Params.social.displayMain) }}
+            {{ partial "social.html" . }} {{ end }}
         </article>
       </div>
       <!--//container-->
