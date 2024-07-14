@@ -75,7 +75,7 @@ Had over to the [GitHub repository](https://github.com/codewithbas/resume) and c
 Next, head over to the Repository settings page.
 
 
-Create a new repository secret called `NETLIFY_TOKEN` and put your Netlify personal access token in here.
+Create a new repository secret called `NETLIFY_PERSONAL_ACCESS_TOKEN` and put your Netlify personal access token in here.
 
 Next, create another repository secret called `PDFCO_KEY` and paste your PDF.co API key.
 
@@ -144,7 +144,7 @@ With the next steps, we build the site using hugo and upload the public director
       - name: Deploy to Netlify
         run: netlify deploy --dir=public --message="Auto Deploy" --prod
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_PERSONAL_ACCESS_TOKEN }}
           NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
 ```
 
@@ -207,7 +207,7 @@ The last steps of our job upload the fresh PDF files to Netlify, and pushes the 
       - name: Deploy to Netlify
         run: netlify deploy --dir=public --message="Auto Deploy with PDFs" --prod
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_PERSONAL_ACCESS_TOKEN }}
           NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
 
       - name: commit files

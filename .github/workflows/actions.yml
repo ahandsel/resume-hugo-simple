@@ -35,7 +35,7 @@ jobs:
       - name: Deploy to Netlify
         run: netlify deploy --dir=public --message="Auto Deploy" --prod
         env: 
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_PERSONAL_ACCESS_TOKEN }}
           NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
 
       - name: generate PDFs # run main.py
@@ -51,7 +51,7 @@ jobs:
       - name: Deploy to Netlify
         run: netlify deploy --dir=public --message="Auto Deploy with PDFs" --prod
         env: 
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_PERSONAL_ACCESS_TOKEN }}
           NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
           
       - name: commit files

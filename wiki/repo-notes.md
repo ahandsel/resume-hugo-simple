@@ -15,13 +15,16 @@ Preview link: [localhost:1313/](http://localhost:1313/)
 [.env.example](../.env.example)
 
 
-### NETLIFY_TOKEN
+### GITHUB_TOKEN
+
+
+### NETLIFY_PERSONAL_ACCESS_TOKEN
+
+
+### NETLIFY_SITE_ID
 
 
 ### PDFCO_KEY
 
 
-### NETLIFY_TOKEN
-
-
-### GITHUB_TOKEN
+### RESUME_URL
