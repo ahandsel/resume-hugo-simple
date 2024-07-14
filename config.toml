@@ -1,15 +1,15 @@
 # Page settings
 
-baseURL = "https://resume-demo.bas.work/"
+# baseURL = "https://resume-demo.bas.work/"
 languageCode = "en"
 title = "Genji Fujimori"
 enableGitInfo = false
-googleAnalytics = "UA-XXXXXXX-Y"
+# googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Genji Fujimori"
     description = "Developer Advocate and UX Writer"
-    ogImage = "better-software.png"
+    # ogImage = "better-software.png"
     ghRepo = "https://github.com/ahandsel/resume-hugo-simple"
 
     [params.profile]
@@ -38,6 +38,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.skills]
         enable = true
+        displayMain = true
+        displaySidebar = false
 
         [[params.skills.list]]
         title = "JavaScript"
@@ -59,10 +61,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.education.list]]
         degree = "Bachelor’s Degree, Management Information Systems"
         university = "University of California, Santa Cruz"
+        college = "Jack Baskin School of Engineering"
         dates = "2014 - 2018"
 
     [params.languages]
         enable = true
+        displayMain = true
+        displaySidebar = true
 
         [[params.languages.list]]
         name = "English"
@@ -72,9 +77,21 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Japanese"
         level = "Fluent"
 
+    [params.awards]
+        enable = true
+        displayMain = true
+        displaySidebar = true
+
+        [[params.awards.list]]
+        name = "Panda"
+        body = "cute"
+        date = 2020-01-01
+
 
     [params.interests]
         enable = true
+        displayMain = true
+        displaySidebar = true
 
         [[params.interests.list]]
         name = "Counting Sheeps"
@@ -82,11 +99,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
+        displayMain = true
+        displaySidebar = true
+
         text = "I am the 10 eggs developer you are looking for."
 
 
     [params.experience]
         enable = true
+        displayMain = true
+        displaySidebar = true
 
         [[params.experience.list]]
         title = "Global Developer Relations Team"
@@ -130,6 +152,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.social]
         enable = true
+        displayMain = false
+        displaySidebar = true
 
         [[params.social.list]]
         icon = "fab fa-github-square"
